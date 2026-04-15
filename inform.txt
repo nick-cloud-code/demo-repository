@@ -1,0 +1,7 @@
+ls -force: lists all the files in the directory/folder that your are currently in
+
+ls -force | format-list:  lists the files in an horizontal manner
+
+git status:   shows all the changes you have made but not yet benn commited to git
+
+git add .: this makes github to track the changes you have made  (git add filename)
