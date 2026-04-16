@@ -5,3 +5,39 @@ ls -force | format-list:  lists the files in an horizontal manner
 git status:   shows all the changes you have made but not yet benn commited to git
 
 git add .: this makes github to track the changes you have made  (git add filename)
+
+git commit(to change the changes) -m(meassage the reason to commit the changes) -m(this is for discription)
+
+git push  (this makes now your repo in github to have the changes you have made)
+
+to push the changes inb github you have to connect your local machine with git hub by SSH keys
+
+"ssh-keygen -t(type of encryption) rsa(strength of the encryption) -b 4096 -C "email.for_github"
+
+you'll have 2 keys{
+    public for the github  (examplekey.pub)
+    private key -should be private (examplekey) (this is the one used to connect your local machine with github(this makes gtihub to know that is truely you))
+}
+
+to copy the key (pbcopy < ~/thefilename) or just highlight the key(or content to be coppied and will automatically been coppied)  *DON'T USE CTRL + C* it means some thing else in terminal
+
+git push origin(the locstion of the git repo(should remain origin)) master(the branch in the repo)
+
+
+to create a repo locally:{
+    run this[
+        git init (to initialize)
+
+        then can continue from above
+
+        but when you try to add it will fail couse we had not clone it
+
+        so we'll create an empty repoin github
+    ]
+    after creating the empty repo your will copy the ssh link and copy here
+
+    write this first(git remote add origin paste_the_copied_ssh_link)
+
+}
+
+to create a default place to be pushed (git push -u origin main)
