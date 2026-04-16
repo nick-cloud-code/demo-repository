@@ -1,8 +1,12 @@
 # Demo
-bring all your details here
-!
+bring all your details here!
 
 
-##small header
+## subheader
 
 other text infor
+
+## Local Development
+
+1. open index.html in your browser.
+
